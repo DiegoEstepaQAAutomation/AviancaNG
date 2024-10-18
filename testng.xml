@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="avianca" value="https://www.avianca.com/co/es/"></parameter>
+<parameter name="rutaOutput" value="./output/"></parameter>
+<parameter name="rutaImagenReporte" value="./Logo/logo_periferia.png"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AviancaBase.AviancaNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
